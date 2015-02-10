@@ -13,3 +13,9 @@ gem 'active_model_serializers', '~> 0.9.3'
 group :doc do
   gem 'sdoc', require: false
 end
+
+group :test do
+  gem "rspec-rails"
+  gem "factory_girl_rails"
+  gem 'ffaker'
+end
